@@ -27,11 +27,7 @@ La aplicación debe:
 
 1. **Clona el repositorio** o descarga los archivos proporcionados. La UI ya está creada, solo necesitas agregar la lógica en el archivo `main.js`.
 
-2. **Implementa las siguientes funciones en `main.js`**:
-
-   - `add()`: Verifica si la suma ingresada es correcta.
-   - `initNumbers()`: Genera dos números aleatorios para la suma.
-   - `toogleButtons()`: Oculta y muestra los botones según la interacción del usuario.
+2. **Implementa la lógica de la app en `main.js`**:
 
 3. **Pasos a seguir**:
 
