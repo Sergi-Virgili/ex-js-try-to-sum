@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.sum-game {
+  width: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.sum-game__component {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.sum-game__input {
+  width: 100px;
+  height: 50px;
+  font-size: 2rem;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sum-game__button {
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #5ebd00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.sum-game__button:hover {
+  background-color: #428005;
+}
+
+.sum-game__result-message {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #d10c0c;
+  height: 30px;
+  text-align: right;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.sum-game__footer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}

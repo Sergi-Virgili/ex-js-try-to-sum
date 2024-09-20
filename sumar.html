@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprende a sumar</title>
+    <link rel="stylesheet" href="sumar.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1 class="header">Suma los dos números</h1>
+      <div class="sum-game">
+        <div class="sum-game__component">
+          <input type="text" id="num1" class="sum-game__input" value="2" />
+          <span>+</span>
+          <input type="number" id="num2" class="sum-game__input" />
+          <span>=</span>
+          <input type="number" id="result" class="sum-game__input" />
+        </div>
+        <div id="resultMessage" class="sum-game__result-message"></div>
+        <div class="sum-game__footer">
+          <button id="tryButton" class="sum-game__button hidden">
+            Comprobar
+          </button>
+          <button id="initButton" class="sum-game__button">Init</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
